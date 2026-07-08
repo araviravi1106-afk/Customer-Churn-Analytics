@@ -1,6 +1,6 @@
 """
 E-Commerce Customer Churn Analytics Dashboard
-Author: <Your Name>
+Author: ARAVINDH 
 Description:
     An interactive Streamlit dashboard for exploring, analyzing, and
     understanding customer churn behavior for an e-commerce business.
