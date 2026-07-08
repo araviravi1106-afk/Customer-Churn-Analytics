@@ -1,6 +1,6 @@
 """
 E-Commerce Customer Churn Analytics Dashboard
-Author: ARAVINDH 
+Author: ARAVINDH S
 Description:
     An interactive Streamlit dashboard for exploring, analyzing, and
     understanding customer churn behavior for an e-commerce business.
@@ -60,7 +60,10 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-DATA_PATH = "ecommerce_customer_churn.csv"
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.join(BASE_DIR, "ecommerce_customer_churn.csv")
 
 CATEGORICAL_COLS = [
     "Gender", "City", "State", "Membership_Type",
